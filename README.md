@@ -3,6 +3,7 @@
 Go package implementing XDR as specified in RFC 4506 pack/unpack.
 
 The mapping between Go and XDR data types is as follows:
+
 | XDR                         | Go                 | Go struct field tags                                           |
 | --------------------------- | ------------------ | -------------------------------------------------------------- |
 | Integer                     | int32              | \`XDR_Name:"Integer"\`                                         |
