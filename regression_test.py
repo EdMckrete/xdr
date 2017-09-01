@@ -110,8 +110,6 @@ if __name__ == "__main__":
                             help="include coverage statistics in test output")
     arg_parser.add_argument('--get', '-get', action='store_true',
                             help="invoke `go get` to retrieve new dependencies")
-    arg_parser.add_argument('--packages', '-p', action='store', nargs='*',
-                            help="specific packages to process")
     arg_parser.add_argument('--quiet', '-q', action='store_true',
                             help="suppress printing of what commands are being run")
     options = arg_parser.parse_args()
